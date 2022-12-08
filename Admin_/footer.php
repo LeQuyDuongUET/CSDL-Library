@@ -10,14 +10,14 @@
 	<style type="text/css">
 	footer
 	{
-		height: 200px;
-		width: 1361px;
-		background-color: black;
+		height: 180px;
+		width: 1500px;
+		background-color: white;
 	}
 		.fa
 		{
 			margin: 0px 5px;
-			padding: 5px;
+			padding: 7px;
 			font-size: 20px;
 			width: 20px;
 			height: 20px;
@@ -58,21 +58,19 @@
 
 </head>
 <body>
-<footer style="background-color: black; ">
+<footer style="background-color: white;">
 	<br>
-	<h3 style="color:white;text-align: center;">Contact us through social media</h3><br>
+	<h3 style="color:grey;text-align: center; font-family: Lato">Contact us through social media</h3><br>
 
-	<div style="margin:0px 570px;">
+	<div style="margin:0px 655px;">
 
 		<a href="#" class="fa fa-facebook"></a>
 		<a href="#" class="fa fa-twitter"></a>
 		<a href="#" class="fa fa-google"></a>
 		<a href="#" class="fa fa-instagram"></a>
-		<a href="#" class="fa fa-yahoo"></a>
 	</div>
 
-	<br>
-	<p style="color:white;text-align: center;">
+	<p style="color:grey;text-align: center; font-family: Lato">
 		<br>
 		Email:&nbsp Online.library@gmail.com <br><br>
 		Mobile:&nbsp &nbsp +880171*******
