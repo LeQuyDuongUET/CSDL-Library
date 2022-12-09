@@ -12,19 +12,28 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
   	
   	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-   
+   <style type="text/css">
+      .container-fluid{
+          background-color: white;
+      }
+
+      .container-fluid a{
+        color: black;
+        font-family: Lato;
+      }
+   </style>
 </head>
 <body>
 
 	    <nav class="navbar navbar-inverse">
       <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand active">ONLINE LIBRARY MANAGEMENT SYSTEM</a>
+            <a class="navbar-brand active" style="color: #1473e6"><b>Library Manangement System</b></a>
           </div>
           <ul class="nav navbar-nav">
-            <li><a href="index.php">HOME</a></li>
-            <li><a href="books.php">BOOKS</a></li>
-            <li><a href="feedback.php">FEEDBACK</a></li>
+            <li><a href="index.php" style="color: black"><b>Home</b></a></li>
+            <li><a href="books.php" style="color: black"><b>Books</b></a></li>
+            <li><a href="feedback.php" style="color: black"><b>Forum</b></a></li>
           </ul>
           <?php
             if(isset($_SESSION['login_user']))
@@ -59,9 +68,9 @@
             {   ?>
               <ul class="nav navbar-nav navbar-right">
 
-                <li><a href="admin_login.php"><span class="glyphicon glyphicon-log-in"> LOGIN</span></a></li>
+                <li><a href="admin_login.php" style="color: #1473e6"><span class="glyphicon glyphicon-log-in"> <b style="font-family: Lato">Login</b></span></a></li>
                 
-                <li><a href="registration.php"><span class="glyphicon glyphicon-user"> SIGN UP</span></a></li>
+                <li><a href="registration.php" style="color: #1473e6"><span class="glyphicon glyphicon-user"> <b style="font-family: Lato">Sign up</b></span></a></li>
               </ul>
                 <?php
             }

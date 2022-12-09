@@ -17,6 +17,21 @@
     {
       margin-top: -20px;
     }
+
+    .log_img {
+      height: 700px;
+      background-image: url("images/loginbg.png");
+      background-size: 1600px 1000px;
+    }
+
+    .box1 {
+      height: 450px;
+      background-color: white;
+      opacity: 1;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 5px;
+    }
+
   </style>   
 </head>
 <body>
@@ -25,20 +40,23 @@
   <div class="log_img">
    <br>
     <div class="box1">
-        <h1 style="text-align: center; font-size: 35px;font-family: Lucida Console;">Library Management System</h1>
-        <h1 style="text-align: center; font-size: 25px;">User Login Form</h1><br>
+        <br>
+        <h1 style="text-align: center; font-size: 28px;font-family: Lato; color: black"><b>Library Management System</b></h1>
+        <br>
+        <h1 style="text-align: center; font-size: 25px; color: black">Admin Login</h1><br>
       <form  name="login" action="" method="post">
         
         <div class="login">
-          <input class="form-control" type="text" name="username" placeholder="Username" required=""> <br>
-          <input class="form-control" type="password" name="password" placeholder="Password" required=""> <br>
-          <input class="btn btn-default" type="submit" name="submit" value="Login" style="color: black; width: 70px; height: 30px"> 
+          <input class="form-control" type="text" name="username" placeholder="Username" required="" style="height: 50px"> <br>
+          <input class="form-control" type="password" name="password" placeholder="Password" required="" style="height: 50px"> <br>
+          <input class="btn btn-primary" type="submit" name="submit" value="Login" style="color: white; width: 90px; height: 40px; border-radius: 25px"> 
         </div>
       
-      <p style="color: white; padding-left: 15px;">
+      <p style="color: black; padding-left: 50px;">
         <br><br>
-        <a style="color:yellow;text-decoration: none;" href="update_password.php">Forgot password?</a> &nbsp &nbsp &nbsp &nbsp &nbsp  
-        New to this website?<a style="color: yellow; text-decoration: none;" href="registration.html">&nbspSign Up</a>
+        <a style="color:#1473e6 ;text-decoration: none;" href="update_password.php"><b>Forgot password?</b></a> 
+        <br><br><br>
+        New admin?<a style="color: #1473e6; text-decoration: none;" href="registration.html">&nbsp<b>Sign Up</b></a>
       </p>
     </form>
     </div>
